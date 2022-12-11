@@ -9,12 +9,12 @@ let farm_array = [
     {
       animal: "inek",
       hayvanSayisi: inek,
-      paca: 1
+      paca: 1 //halal gıda
     },
     {
       animal: "koyun",
       hayvanSayisi: koyun,
-      paca: 1
+      paca: 1 //halal gıda
     },
     {
       animal: "tavuk",
@@ -31,7 +31,7 @@ let farm_array = [
 
 for (let index = 0; index < farm_array.length; index++) {
    if (farm_array[index].paca == 1 ) { 
-   kelleci = farm_array[index].hayvanSayisi*4
+   kelleci = farm_array[index].hayvanSayisi*4 //halal olan hayvansayıları yoplanıp 4 ile carpılır
     
    }    
 }
